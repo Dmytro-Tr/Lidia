@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/logo-mini.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:regular,500,700,800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
@@ -16,21 +17,21 @@
     <header class="header">
       <div class="header__container" id="header">
         <a class="header-logo" href="#header">
-          <img src="./img/logo text black.png" alt="logo">
+          <img src="./img/logo_text_black.png" alt="logo">
         </a>
         <nav class="header-menu menu">
           <ul class="menu-list">
             <li class="menu-item">
-              <a href="" class="menu-link">Feature</a>
+              <a href="#feature" class="menu-link">Feature</a>
             </li>
             <li class="menu-item">
-              <a href="" class="menu-link">Service</a>
+              <a href="#services" class="menu-link">Service</a>
             </li>
             <li class="menu-item">
-              <a href="" class="menu-link">Review</a>
+              <a href="#reviews" class="menu-link">Review</a>
             </li>
             <li class="menu-item">
-              <a href="" class="menu-link">Location</a>
+              <a href="#location" class="menu-link">Location</a>
             </li>
           </ul>
         </nav>
@@ -51,22 +52,22 @@
           </div>
           <div class="hero-images images-hero">
             <a href="" class="images-hero-item images-hero-item-01">
-              <img class="images-hero-img" src="./img/hero/Dompet Ayah Sepatu Ibu.jpg" alt="image book">
+              <img class="images-hero-img" src="./img/hero/Dompet_Ayah_Sepatu_Ibu.jpg" alt="image book">
             </a>
             <a href="" class="images-hero-item images-hero-item-02">
-              <img class="images-hero-img" src="./img/hero/Talking to Strangers.jpg" alt="image book">
+              <img class="images-hero-img" src="./img/hero/Talking_to_Strangers.jpg" alt="image book">
             </a>
             <a href="" class="images-hero-item images-hero-item-03">
-              <img class="images-hero-img" src="./img/hero/The Midnight Library.jpg" alt="image book">
+              <img class="images-hero-img" src="./img/hero/The_Midnight_Library.jpg" alt="image book">
             </a>
             <a href="" class="images-hero-item images-hero-item-04">
-              <img class="images-hero-img" src="./img/hero/The Visual MBA.jpg" alt="image book">
+              <img class="images-hero-img" src="./img/hero/The_Visual_MBA.jpg" alt="image book">
             </a>
           </div>
         </div>
       </section>
 
-      <section class="page-feature feature">
+      <section id="feature" class="page-feature feature">
         <div class="feature__container">
           <div class="feature-header-block header-block header-block-margin">
             <div class="header-block-label">FEATURES</div>
@@ -110,7 +111,7 @@
         </div>
       </section>
 
-      <section class="page-services services">
+      <section id="services" class="page-services services">
         <div class="services__container">
           <div class="services-header-block header-block header-block-margin">
             <div class="header-block-label">SERVICES</div>
@@ -164,7 +165,7 @@
         </div>
       </section>
 
-      <section class="page-reviews reviews">
+      <section id="reviews" class="page-reviews reviews">
         <div class="reviews__container">
           <div class="reviews-header-block header-block header-block-margin">
             <div class="header-block-label">REVIEWS</div>
@@ -219,10 +220,54 @@
         </div>
       </section>
 
+      <section id="location" class="page-location location">
+        <div class="location__container">
+          <div class="location-header-block header-block header-block-margin">
+            <div class="header-block-label">LOCATION</div>
+            <div class="header-block-title">Our Library Location</div>
+          </div>
+          <div>
+            <iframe class="location-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.576932756367!2d106.63288167741555!3d-6.187328044611203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f929162547c7%3A0xbbf35137362e584d!2sSMK%20Negeri%204%20Kota%20Tangerang!5e0!3m2!1sru!2sua!4v1731320913296!5m2!1sru!2sua"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <footer class="footer">
-      <div class="footer container">
+      <div class="footer-top">
+        <div class="footer__container">
+          <ul class="footer-top-list">
+            <li class="footer-top-item">
+              <h4 class="footer-top-title">Managed By</h4>
+              <img class="footer-top-logo" src="./img/logo_text_black.png" alt="">
+            </li>
+            <li class="footer-top-item">
+              <h4 class="footer-top-title">Social Media</h4>
+              <div class="footer-top-social">
+                <a class="footer-top-social-link" href="">
+                  <img src="./img/social/twitter.svg" alt="twitter icon">
+                </a>
+                <a class="footer-top-social-link" href="">
+                  <img src="./img/social/instagram.svg" alt="instagram icon">
+                </a>
+                <a class="footer-top-social-link" href="">
+                  <img src="./img/social/facebook.svg" alt="facebook icon">
+                </a>
+              </div>
+            </li>
+            <li class="footer-top-item">
+              <h4 class="footer-top-title">Slogan</h4>
+              <a class="footer-top-slogan-link" href="">#RentFavBooks</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom-text">© 2024 Lidia. All rights reserved.</p>
       </div>
     </footer>
 
